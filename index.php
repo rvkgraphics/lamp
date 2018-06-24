@@ -4,7 +4,7 @@
                                       <meta http-equiv=Content-Type content=text/html; charset=ISO-8859-1>
                                     </head>
                                     <body>
-                                      <h1>Welcome to PHP Deployment 1</h1>
+                                      <h1>Welcome to PHP Deployment 2</h1>
                                      <?php
 $Database   = "mysql.lampstack.com";
 $DBUser     = "lamp";
@@ -17,7 +17,6 @@ mysql_close($dbconnection);
                                      <h2>PHP Information</h2>
                                       <p/>
                                       <?php
-phpinfo();
 ?>
                                    </body>
                                   </html>
