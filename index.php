@@ -26,9 +26,9 @@ if (empty($instanceid)) {
 } else {
     print "EC2 instance-id =  . $instanceid . <br />";
 }
-$Database   = "";
-$DBUser     = "";
-$DBPassword = "";
+$Database   = "mysql.lampstack.com";
+$DBUser     = "lamp";
+$DBPassword = "lamp1234";
 print "Database =  . $Database . <br />";
 $dbconnection = mysql_connect($Database, $DBUser, $DBPassword) or die("Could not connect:" . mysql_error());
 print("Connected to $Database successfully");
